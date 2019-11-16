@@ -1,4 +1,4 @@
-package du.study;
+package du.study.common;
 
 
 import org.springframework.context.annotation.ComponentScan;

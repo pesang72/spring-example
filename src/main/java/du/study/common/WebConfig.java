@@ -1,4 +1,4 @@
-package du.study;
+package du.study.common;
 
 import du.study.intercepter.FirstInterceptor;
 import du.study.intercepter.SecondInterceptor;
