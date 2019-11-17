@@ -1,6 +1,6 @@
 package du.study.domain;
 
-import du.study.constant.ErrorType;
+import du.study.common.error.ErrorType;
 
 public class BaseDomain {
     private Integer errorCode;

@@ -3,9 +3,8 @@ package du.study.domain;
 
 
 
-import du.study.constant.ErrorType;
+import du.study.common.error.ErrorType;
 import du.study.validator.annotation.ClassInfoCheck;
-import org.hibernate.validator.constraints.NotEmpty;
 
 import java.io.Serializable;
 
