@@ -6,12 +6,12 @@ public class BaseDomain {
     private Integer errorCode;
     private String errorMsg;
 
-    BaseDomain(Integer errorCode,String errorMsg){
+    public BaseDomain(Integer errorCode, String errorMsg){
         this.errorCode = errorCode;
         this.errorMsg =  errorMsg;
     }
 
-    BaseDomain(ErrorType errorType){
+    public BaseDomain(ErrorType errorType){
         this.errorMsg = errorType.getErrorMsg();
         this.errorCode = errorType.getErrorCode();
     }
