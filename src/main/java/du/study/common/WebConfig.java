@@ -27,11 +27,16 @@ public class WebConfig implements WebMvcConfigurer{
     public void configureViewResolvers(ViewResolverRegistry registry) {
         registry.jsp("/",".jsp");
     }
-    /*
+
+
     @Override
     public void configureHandlerExceptionResolvers(List<HandlerExceptionResolver> resolvers) {
         resolvers.add(new ExceptionResolver());
     }
-
-     */
+/*
+    @Override
+    public void extendHandlerExceptionResolvers(List<HandlerExceptionResolver> resolvers) {
+        resolvers.add(new ExceptionResolver());
+    }
+*/
 }
